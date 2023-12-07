@@ -1,0 +1,20 @@
+package javabasic2.ch05.sec0;
+
+public class 배열연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	// 배열 : 동일한 자료들의 집합 , 연속해서 저장
+    // 이유 : 정수 100개를 기억해야 한다면 변수 100개 만들어야 함 배열로 선언한다.
+    //만드는법 : 1차원 2차원 3 차원
+	//         배열에 값을 넣으면서 배열 만들기       
+	int[] arr = new int[] {1,2,3,4,5};
+	
+	System.out.println(arr[0])
+	;
+	
+	
+	}
+
+}

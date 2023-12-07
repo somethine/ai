@@ -1,0 +1,44 @@
+
+public class student {
+
+
+String 구분;
+String 이름;
+String 전공;
+int 급여; 
+String 코드;
+
+int[] 성적처리하기() {
+	return null;
+
+}
+	
+  String[] 레포드검사하기() {
+	
+	return null;
+	
+}
+
+ void 수업하기 () {
+	 
+	 
+	 
+ }
+   
+	
+	
+	
+	
+	
+
+
+}
+
+ 
+
+
+
+
+
+
+

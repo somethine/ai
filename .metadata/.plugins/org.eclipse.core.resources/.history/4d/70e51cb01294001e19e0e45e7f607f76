@@ -1,0 +1,87 @@
+package javabasic2.ch05.sec0;
+
+public class 배열연습 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	// 배열 : 동일한 자료들의 집합 , 연속해서 저장
+    // 이유 : 정수 100개를 기억해야 한다면 변수 100개 만들어야 함 배열로 선언한다.
+    //만드는법 : 1차원 2차원 3 차원
+	//         배열에 값을 넣으면서 배열 만들기       
+	int[] arr = new int[] {1,2,3,4,5};
+	
+	System.out.println(arr[0])
+	;
+	
+	arr[0] = 10;
+	
+	// 방법2 빈 배열을 만들고 나중에 값을 넣기
+	
+	int[] intArr = new int[3];
+	
+	double[] doubleArr2 = new double[5];
+	
+	intArr[0] = 3;
+	intArr[1] = 5;
+	intArr[2] = 7;
+	
+	
+	    String[] stringArr2 = new String[4];
+
+	    stringArr2[0] = "A";
+	    stringArr2[1] = "b";
+	    stringArr2[2] = "c";
+	    stringArr2[3] = "d";
+	
+	
+	int[] intArr3 = new int[100];
+	for( int i1=0; i1<100; i1++ ) {
+		intArr3[i1] = i1 + 1;
+	}
+	
+	int[] intArr10 = null; // null문자 주소가 안들어 갔다. 미지정
+	
+	int[] score = new int[] { 100,90,87,90,100};
+	int sum1=0;
+	for(int i1=0; i1<30 ; i1++) {
+		sum1 += score[i1];
+		
+		int avg = sum1/30;
+		
+		System.out.println("합계는" + sum1 );
+		System.out.println("평균은" + avg );
+		
+	
+	 String[] season = { "spring" , "summer " , "fall" , "winter" };
+	 
+	 System.out.println("season[0] : " + season[0]);
+	 System.out.println("season[1] : " + season[1]);
+	 System.out.println("season[2] : " + season[2]);
+	 System.out.println("season[3] : " + season[3]);
+	
+	season[1] = "여름";
+	System.out.println("season[1] : " + season[1]);
+	System.out.println();
+	
+    int[] scores = { 83, 90 , 87 };
+    
+    int sum = 0;
+    for(int i=0; i<3; i++) {
+    	sum += scores[i];
+    	
+    }
+	
+	System.out.println("총합  : " + sum);
+	double avg1 = (double) sum / 3;
+	System.out.println("평균  : " + avg1);
+	
+	
+	
+	
+	}
+ 
+	
+	}
+
+}

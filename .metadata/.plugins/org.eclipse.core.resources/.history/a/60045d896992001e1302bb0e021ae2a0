@@ -1,0 +1,40 @@
+package javaBasic.ch01.sec15;
+
+public class datatypeEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	float f10 = 10.25f;
+    byte changef10 = (byte) f10;
+    
+    int i10 = 3000;
+    short chi10 = (short) i10;
+    
+    int kor=80;
+    int mat=90;
+    int eng=83;
+    
+    int sum = kor + mat +eng;
+    int matDouble = mat*mat;
+    
+    double avg = sum / 3.0;
+    double avg1 = (double)(sum)/3 ;
+    
+    System.out.println("ÇÕ°è´Â" + sum);
+    System.out.println("Æò±ÕÀº" + avg);
+    System.out.println("Æò±ÕÀº" + avg1);
+    System.out.println("¼öÇÐÁ¡¼öÀÇ °ÅµìÁ¦°ö" + matDouble);
+	
+	char ch1 = 'a';
+	System.out.println((int)  ch1);
+	
+	System.out.println((char) ch1+3);
+    System.out.printf("%c" , ch1 +3);
+	
+	System.out.printf("%c", 75);
+	
+	
+	}
+
+}

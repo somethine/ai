@@ -1,0 +1,63 @@
+package javaBasic.ch04.sec02;
+
+import java.util.Scanner;
+
+public class 은행예금 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+	Scanner sc = new Scanner(System.in);
+	int menu = 0;
+	String name = "";
+	int score = 0;
+	
+	
+	while(menu !=4 ) {
+		System.out.println("----------------------------");
+		System.out.println("1.학생명 2. 점수 3. 출력 4. 종료");
+		System.out.println("----------------------------");
+		System.out.println(" 선택 > ");
+	    menu = sc.nextInt();
+	    
+	    switch(menu) {
+	    case 1:
+	    	System.out.println("학생명은>");
+	        name = sc.next();
+	        break;
+	    case 2:
+	    	System.out.println("점수는>");
+	        score = sc.nextInt();
+	        break;
+	    case 3:
+	    	System.out.println( name + " " + score);
+	        break;
+	    case 4:
+	    	System.out.println("프로그램 종료");
+	         break;
+	    default:
+	    	System.out.println("잘못 입력");
+	         
+	         
+	         
+	    }
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

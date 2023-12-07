@@ -1,0 +1,25 @@
+
+public class Å¬·¡½º°³³ä {
+
+	public static void main(String[] args) {
+	
+	
+	
+ student st1 =	new student( "230101", "Ai"  , "È«±æµ¿" , 100 , " 010 -123-1234" );
+	
+	System.out.println( st1.get±¸ºÐ());
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+}

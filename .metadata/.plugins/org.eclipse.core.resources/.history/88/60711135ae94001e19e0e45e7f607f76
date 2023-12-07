@@ -1,0 +1,5 @@
+package javabasic2.ch05.sec02;
+
+public enum loginresult {
+
+}
