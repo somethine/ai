@@ -1,0 +1,30 @@
+package javabasic3.ch06.sec10;
+
+public class Classname255 {
+
+int field;
+void method() {};
+
+static int field2;
+static void method2() {};
+
+static {
+	//field = 10; 오류 왜 ? 메모리 올라가는 시점 다르다.
+	
+	//method();
+	filed2 = 20;
+	method2();
+	
+
+}
+
+static void method3() {
+	
+	
+	
+}
+
+
+
+
+}

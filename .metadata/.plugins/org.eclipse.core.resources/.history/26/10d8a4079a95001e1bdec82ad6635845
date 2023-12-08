@@ -1,0 +1,15 @@
+package javabasic3.ch06.sec11;
+
+public class 문제연습 {
+
+	public static void main(String[] args) {
+		
+	
+	
+	Scanner sc = new Scannner( System.in);
+	
+	
+	
+	}
+
+}
