@@ -1,0 +1,23 @@
+package javabasic4.ch07.sec01;
+
+public class SmartPshonExample {
+
+	public static void main(String[] args) {
+	
+  Phone p = new Phone();
+  p.bell();
+  
+  p.sendVoice("Àß Àä¾î!");
+  p.receiveVoice("Àß Àä¾î ³Êµµ ÀßÀä¾î?");
+		
+//		
+// SmartPhone sp2 = new SmartPhone("¾ÆÀÌÆù, Èò»ö")	
+//	System.out.println( sp.2model);	
+//	
+//	
+	
+	
+	
+	}
+
+}
